@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <main>
+        <div class="text-input">
+            <input type="text" id="user-input" oninput="evaluateExpression()">
+        </div>
+        <div class="code-input" id="editor"></div>
+        <div id="errors-output"></div>
+        <div id="result-output"></div>
+    </main>
+    <script src="ace-builds-master/src/ace.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
